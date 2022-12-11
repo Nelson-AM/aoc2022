@@ -1,7 +1,7 @@
 from util import load_file_as_list, print_output
 
 if __name__ == '__main__':
-    file_list = load_file_as_list('input_day_1')
+    file_list = load_file_as_list('input/input_day_1')
 
     calories_per_elf = []
     calories_carried = 0

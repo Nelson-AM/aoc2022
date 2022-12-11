@@ -95,7 +95,7 @@ def calculate_score_puzzle_two(list_of_rounds):
 
 
 if __name__ == '__main__':
-    file_list = load_file_as_list('input_day_2')
+    file_list = load_file_as_list('input/input_day_2')
 
     total_score = calculate_total_score(file_list)
     updated_score = calculate_score_puzzle_two(file_list)

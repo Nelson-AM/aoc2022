@@ -60,7 +60,7 @@ def puzzle_two(file_list):
 
 
 if __name__ == '__main__':
-    file_list = load_file_as_list('input_day_3')
+    file_list = load_file_as_list('input/input_day_3')
 
     total_priority = puzzle_one(file_list)
     badge_priority = puzzle_two(file_list)
